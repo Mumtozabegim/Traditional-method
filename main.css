@@ -1,0 +1,38 @@
+:root {
+     --background-color: dodgerblue;
+     --inner-color:#fff
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: var(--background-color);
+}
+
+.section {
+}
+.container {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 50px;
+    background-color: var(--inner-color);
+}
+.section_h2 {
+    color: var(--background-color);
+    margin-bottom: 30px;
+}
+.section_p {
+    color: var(--background-color);
+    margin-bottom: 30px;
+}
+.section_button {
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    color: dodgerblue;
+    width: 48px;
+    height: 40px;
+}
